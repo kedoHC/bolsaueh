@@ -1,0 +1,508 @@
+body{
+
+}
+#cabecera{
+	position: absolute;
+	width: 100%;
+	background-image: url("../img/cabecera-basico.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+#cabecera img{
+	width: 8%;
+}
+#cabecera h2{
+	color: #fff;
+	text-align: center;
+}
+/********************************
+******* menu de navegacion ******
+*********************************/
+#menu{
+    position: absolute;
+    top: 200px;
+    height: 80px;
+    width: 100%;
+    border-top: 2px solid rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+}
+#menu img{
+    width: 20%;
+    padding-top: 20px;
+}
+.menu-item{
+    font-size: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    border-top: 2px solid rgba(0,0,0,0.75);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    z-index: 1001;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: #262525;
+}
+a:hover{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+/********************************
+*********** mis ofertas *********
+*********************************/
+#ofertas{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#ofertas-publicadas{
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
+#ofertas-publicadas .oferta{
+    margin-top: 30px;
+}
+/*#ofertas-publicadas .oferta .descripcion #descripcion{
+    text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow:hidden;
+}*/
+#ofertas-publicadas .oferta:last-child{
+    margin-bottom: 150px;
+}
+#ofertas-publicadas .oferta button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    width: 150px;
+    background-color: #7C2B2B;
+}
+#ofertas-publicadas .oferta button{
+    color: #fff;
+}
+#ofertas-publicadas .oferta button:hover{
+    color: #262525;
+}
+#ofertas-publicadas .oferta button:focus{
+    outline: 0px;
+}
+#ofertas-publicadas .descripcion button{
+    margin-top: 50px;
+}
+#ofertas-publicadas .descripcion{
+    color: #fff;
+    background-color: #262525;
+    border-radius: 10px;
+      -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#ofertas-publicadas .detalles{
+    border: 2px solid #262525;
+    border-radius: 10px;
+    height: 223px;
+     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#ofertas-publicadas .detalles .row:first-child{
+    margin-top: 20px;
+}   
+#ofertas-publicadas .detalles p{
+    font-size: 20px;
+}
+#ofertas-publicadas .detalles span{
+    color: #7C2B2B;
+}
+#ofertas-publicadas .detalles .aplicantes{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+#ofertas-publicadas .detalles #btn-aplicantes{
+    margin-top: 10px;
+}
+#ofertas-publicadas .detalles #btn-aplicantes:focus{
+    outline: 0px;
+}
+/********************************
+******** perfil empresa *********
+*********************************/
+#perfil-empresa{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#perfil-empresa #logo{
+    background-color: #262525; 
+
+}
+#perfil-empresa #logo,
+#perfil-empresa #info{ 
+    border: 2px solid #262525;   
+}
+#perfil-empresa #nombre-empresa{
+    color: #fff;
+    background-color: #7C2B2B;
+    margin-bottom: 20px;
+}
+#perfil-empresa #contacto-datos p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#perfil-empresa #contacto p{
+    font-size: 30px;
+    color: #7C2B2B;
+    cursor: pointer;
+}
+#perfil-empresa #datos-empresa .datos{
+    padding-left: 50px;
+}
+#perfil-empresa #datos-empresa .datos h4{
+    font-weight: bold;
+}
+#perfil-empresa #opciones-perfil{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#perfil-empresa #opciones-perfil button{
+    background-color: #7C2B2B;
+    color: #fff;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+}
+#perfil-empresa #opciones-perfil button:focus{
+    outline: 0px;
+}
+/********************************
+********* detalles oferta *********
+*********************************/
+#detalle-oferta{
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
+#detalle-oferta .oferta{
+    margin-top: 30px;
+}
+#detalle-oferta .oferta:last-child{
+    margin-bottom: 150px;
+}
+#detalle-oferta .oferta button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+    width: 150px;
+    background-color: #7C2B2B;
+}
+#detalle-oferta .oferta button{
+    color: #fff;
+
+}
+#detalle-oferta .oferta button:hover{
+    color: #262525;
+}
+#detalle-oferta .oferta button:focus{
+    outline: 0px;
+}
+
+#detalle-oferta .descripcion{
+    color: #fff;
+    background-color: #262525;
+    border-radius: 10px;
+      -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#detalle-oferta .detalles{
+    border: 2px solid #262525;
+    border-radius: 10px;
+     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+#detalle-oferta .detalles .row:first-child{
+    margin-top: 20px;
+}   
+#detalle-oferta .detalles p{
+    font-size: 20px;
+}
+#detalle-oferta .detalles span{
+    color: #7C2B2B;
+}
+#detalle-oferta .detalles .aplicantes{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+#detalle-oferta .detalles #btn-aplicantes{
+    margin-top: 10px;
+}
+#detalle-oferta .detalles #btn-aplicantes:focus{
+    outline: 0px;
+}
+/********************************
+*********** mis ofertas *********
+*********************************/
+#puesto{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+}
+#puesto h1{
+    color: #7C2B2B;
+}
+#aplicantes{
+     position: absolute;
+    top: 500px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#aplicantes #foto{
+    background-color: #262525;
+}
+#aplicantes #datos-aplicante{
+    border: 2px solid #262525;
+    padding-left: 50px;
+}
+#aplicantes #datos-aplicante p{
+    font-size: 17px;
+    font-weight: bold;
+}
+#aplicantes #datos-aplicante button{
+    color: #fff;
+    width: 150px;
+    border: none;
+    border-radius: 0px;
+    background-color: #7C2B2B;
+    margin-bottom: 14px;
+}
+#aplicantes #datos-aplicante button:hover{
+    color: #262525;
+}
+#aplicantes #datos-aplicante button:focus{
+    outline: 0px;
+}
+/********************************
+******* perfil aplicante***********
+*********************************/
+#perfil-egresado{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#perfil-egresado .container{
+    border: 2px solid #262525;
+     background-image: url('../img/soyeuro.png');
+     background-size: contain;
+     background-repeat: repeat;
+     border-radius: 10px;
+     /*background-color: rgb(204, 204, 255);*/
+}
+#perfil-egresado .etiquetas{
+    background-color: #7c2b2b; 
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+#perfil-egresado .etiqueta{
+    background-color: #7c2b2b; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#perfil-egresado .izquierdo-foto{
+   background-color: #262525;
+}
+#perfil-egresado .izquierdo-foto img{
+    margin-top: 50px;
+}
+#perfil-egresado .medio-datos-grales{
+    background-color: #fff;
+    border: 2px solid #262525;
+}
+#perfil-egresado .medio-datos-grales p{
+    font-size: 17px; 
+} 
+#perfil-egresado .medio-datos-grales h3{
+    font-weight: bold;
+}
+#perfil-egresado .medio-datos-grales span{
+    color:  #7c2b2b; 
+    margin-left: 10px;
+}
+#perfil-egresado .acercademi{
+    color: #fff;
+    background-color: #262525;
+}
+#perfil-egresado .acercademi p{
+    font-size: 17px;
+}
+#perfil-egresado .acercademi .matricula{
+    margin-top: 30px;
+}
+#perfil-egresado .acercademi .titulo-dato{
+    font-weight: bold;
+}
+#perfil-egresado .medio-info-academica .titulo{
+    padding-right: 60px;
+    font-weight: bold;
+    
+}
+#perfil-egresado .medio-info-academica .anio-titulo{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+#perfil-egresado .derecho .anio-titulo{
+    color: #7C2B2B;
+    font-weight: bold;
+    font-size: 19px;
+}
+#perfil-egresado .derecho .descripcion-puesto{
+    padding-left: 50px;
+    font-weight: bold;
+}
+#perfil-egresado .derecho{
+    border-left: 2px solid #262525;
+}
+/********************************
+******** nueva oferta ***********
+*********************************/
+#formulario-oferta{
+    position: absolute;
+    width: 100%;
+    background-color: #262525;
+    top: 280px;
+    padding-top: 60px;
+   /* margin-bottom: 150px;*/
+   /*height: 1100px;*/
+}
+#formulario-oferta h1,
+#formulario-oferta h2,
+#formulario-oferta h3{
+    color: #fff;
+}
+#formulario-oferta input,
+#formulario-oferta select,
+#formulario-oferta textarea{
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #eee;
+    color: #000;
+    font-weight: bold;
+}
+#formulario-oferta .select{
+    padding-top: 20px;
+}
+#formulario-oferta input[type="submit"]{
+    background-color: #7C2B2B;
+    color: #fff;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#formulario-oferta input[type="submit"]:focus{
+    outline: 0px;
+}
+/********************************
+****** formulario empresa *******
+*********************************/
+#formulario-empresa{
+    position: absolute;
+    width: 100%;
+    background-color: #262525;
+    color: #fff;
+    top: 280px;
+    padding-top: 60px;
+   /* margin-bottom: 150px;*/
+}
+#formulario-empresa input[type="text"]{
+    width: 540px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #353434;
+    background-color: #262525;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+#formulario-empresa input[type="text"]:focus{
+    outline: 0px;
+    border-bottom: 2px solid #fff;
+}
+#formulario-empresa span{
+    font-size: 30px;
+
+}
+#formulario-empresa p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#formulario-empresa input[type="submit"]{
+    width: 300px;
+    height: 50px;
+    background-color: #7C2B2B;
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#formulario-empresa input[type="submit"]:focus{
+    outline: 0px;
+}
+#formulario-empresa input[type="submit"]:hover{
+    color: #262525;
+}
+#formulario-empresa h3{
+    color: #7C2B2B;
+}
+/********************************
+************* pie ***************
+*********************************/
+#pie{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #262525;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 15px;
+}
+#pie #copyright{
+    color: #fff;
+    font-size: 14px;
+}
+#pie #pie-redes img{
+    width: 70%;
+}
+#pie #ir-inicio{
+    color: #7C2B2B; 
+    font-size: 20px;
+    text-decoration: none;   
+}
+#pie #ir-inicio:hover{
+    color: #eee;
+}

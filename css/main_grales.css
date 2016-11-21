@@ -1,0 +1,243 @@
+#cabecera{
+	position: absolute;
+	width: 100%;
+	background-image: url("../img/cabecera-basico.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+#cabecera img{
+	width: 8%;
+}
+#cabecera h2{
+	color: #fff;
+	text-align: center;
+}
+/********************************
+******* menu de navegacion ******
+*********************************/
+#menu{
+    position: absolute;
+    top: 200px;
+    height: 80px;
+    width: 100%;
+    border-top: 2px solid rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+}
+#menu img{
+    width: 20%;
+    padding-top: 20px;
+}
+.menu-item{
+    font-size: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    border-top: 2px solid rgba(0,0,0,0.75);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    z-index: 1001;
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: #262525;
+}
+a:hover{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+/********************************
+** terminos y condiciones *******
+*********************************/
+#termycond{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+}
+#termycond span{
+    color: #7C2B2B;
+}
+#termycond #aviso{
+    color: #7C2B2B;
+    font-size: 22px;
+    font-weight: bold;
+}
+#derechos{
+    margin-bottom: 150px;
+}
+/********************************
+** formulario olvide contraseña *
+*********************************/
+#olvide-contra{
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    background-color: #262525;
+    color: #fff; 
+    padding-top: 50px;
+}
+#olvide-contra form{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+#olvide-contra input[type="email"]{
+    width: 380px;
+    background-color: #262525;
+    color: #fff; 
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#olvide-contra input[type="submit"]{
+    margin-top: 50px;
+    width: 200px;
+    background-color: #7C2B2B;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+}
+#olvide-contra input[type="submit"]:focus,
+#olvide-contra input[type="email"]:focus{
+    outline: 0px;
+}
+/********************************
+****** formulario egresado ******
+*********************************/
+#formulario-egresado{
+    position: absolute;
+    width: 100%;
+    background-color: #262525;
+    color: #fff;
+    top: 280px;
+    padding-top: 60px;
+   /* margin-bottom: 150px;*/
+}
+#formulario-egresado input[type="text"]{
+    width: 540px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #353434;
+    background-color: #262525;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+#formulario-egresado input[type="text"]:focus{
+    outline: 0px;
+    border-bottom: 2px solid #fff;
+}
+#formulario-egresado span{
+    font-size: 30px;
+
+}
+#formulario-egresado p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#formulario-egresado input[type="submit"]{
+    width: 300px;
+    height: 50px;
+    background-color: #7C2B2B;
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#formulario-egresado input[type="submit"]:focus{
+    outline: 0px;
+}
+#formulario-egresado input[type="submit"]:hover{
+    color: #262525;
+}
+/********************************
+****** formulario empresa *******
+*********************************/
+#formulario-empresa{
+    position: absolute;
+    width: 100%;
+    background-color: #262525;
+    color: #fff;
+    top: 280px;
+    padding-top: 60px;
+   /* margin-bottom: 150px;*/
+}
+#formulario-empresa input[type="text"]{
+    width: 540px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #353434;
+    background-color: #262525;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+#formulario-empresa input[type="text"]:focus{
+    outline: 0px;
+    border-bottom: 2px solid #fff;
+}
+#formulario-empresa span{
+    font-size: 30px;
+
+}
+#formulario-empresa p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#formulario-empresa input[type="submit"]{
+    width: 300px;
+    height: 50px;
+    background-color: #7C2B2B;
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#formulario-empresa input[type="submit"]:focus{
+    outline: 0px;
+}
+#formulario-empresa input[type="submit"]:hover{
+    color: #262525;
+}
+/********************************
+************* pie ***************
+*********************************/
+#pie{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #262525;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 15px;
+}
+#pie #copyright{
+    color: #fff;
+    font-size: 14px;
+}
+#pie #pie-redes img{
+    width: 70%;
+}
+#pie #ir-inicio{
+    color: #7C2B2B; 
+    font-size: 20px;
+    text-decoration: none;   
+}
+#pie #ir-inicio:hover{
+    color: #eee;
+}

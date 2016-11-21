@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+@font-face {
+    font-family: 'Ke Aloha';
+    src: url("../img/fonts/Ke Aloha.ttf") format("truetype");
+}
+@font-face{
+    font-family: 'PlayfairDisplay-Italic';
+    src: url("../img/fonts/PlayfairDisplay-Italic.otf") format("truetype");
+}
+body{
+    height: 2000px;
+    font-family: 'Taviraj', serif;
+}
+a:link{
+    text-decoration: none;
+}
+/********************************
+**** escudo, titulo y redes *****
+*********************************/
+#escudo{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    z-index: 1000;
+}
+.titulo{
+    position: absolute; 
+    top: 57%; 
+    width: 100%;
+    z-index: 1000;
+    color: #fff;
+}
+#redes{
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 44%;
+    top: 80%;
+}
+#redes img{
+    width: 5%;
+}
+/********************************
+******* menu de navegacion ******
+*********************************/
+#menu{
+    position: absolute;
+    top: 640px;
+    height: 80px;
+    width: 100%;
+    border-top: 2px solid rgba(0,0,0,0.75);
+   -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+}
+#menu img{
+    width: 20%;
+    padding-top: 20px;
+}
+.menu-item{
+    font-size: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    border-top: 2px solid rgba(0,0,0,0.75);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 23px 0px rgba(0,0,0,0.75);
+    z-index: 1001;
+}
+/********************************
+************* Mensaje ***********
+*********************************/
+#mensaje{
+    position: absolute;
+    width: 100%;
+    top: 730px;
+    height: 500px;
+}
+#mensaje p{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Ke Aloha";
+}
+#mensaje p:first-child{
+    padding-top: 150px;
+}
+/********************************
+********** titulo-log ***********
+*********************************/
+#titulo-log{
+    position: absolute;
+    width: 100%;
+    top: 1230px;
+    background-color: #262525;
+    text-align: center;
+    height: 250px;
+}
+#titulo-log .titulo-log{
+    font-size: 42px;
+    color: #fff;
+    padding-top: 20px; 
+    font-family: 'PlayfairDisplay-Italic'; 
+}
+#titulo-log p{
+    color: #A89B91;
+    font-size: 16px;
+}
+.br-titulo-log{
+    background: #7C2B2B;
+    width: 10%;
+    height: 5px;
+    border-top: 1px solid #7C2B2B;
+}
+/********************************
+************* Log ***************
+*********************************/
+
+/*Usuarios Registrados*/
+#log{
+    position: absolute;
+    width: 100%;
+    top: 1480px;
+    color: #fff;
+    background-color: #262525;
+    padding-bottom: 20px;
+}
+#titulo-sesion, #titulo-registro{
+    font-size: 28px; 
+    color: #7C2B2B; 
+}
+#log input[type="text"],
+#log input[type="password"]{
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #000;
+    padding-left: 15px;
+    background-color: #262525;
+}
+#log input[type="submit"],
+#btn-nuevo-egresado,
+#btn-nueva-empresa{
+    margin-top: 30px;
+    width: 150px;
+    background-color: #7C2B2B; 
+    border-radius: 0px;
+}
+#log input[type="text"]:focus,
+#log input[type="password"]:focus,
+#log input[type="submit"]:focus,
+#btn-nuevo-egresado:focus,
+#btn-nueva-empresa:focus{
+    outline: 0px;
+}
+#olvide-contra{
+    margin-top: 20px;
+    font-size: 19px; 
+}
+#olvide-contra a{
+    color: #7C2B2B;
+}
+#olvide-contra a:hover{
+    color: #eee;
+}
+#btn-nuevo-egresado,
+#btn-nueva-empresa{
+    color: #fff;
+}
+#btn-nuevo-egresado:hover,
+#btn-nueva-empresa:hover{
+    color:#262525;
+}
+#terminos{
+    font-size: 19px;
+    margin-top: 55px;
+}
+#terminos a{
+    color: #7C2B2B;
+}
+#terminos a:hover{
+    color: #eee;
+}
+/********************************
+********** descripcion *********
+*********************************/
+#descripcion{
+    position: absolute;
+    top: 1800px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#titulo-descripcion{
+    color: #262525;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'PlayfairDisplay-Italic';
+}
+#descripcion-texto{
+    font-size: 20px;
+
+}
+/********************************
+************* pie ***************
+*********************************/
+#pie{
+    position: absolute;
+    width: 100%;
+    top: 2250px;
+    background-color: #262525;
+    height: 400px;
+    text-align: center;
+}
+#pie p:nth-child(1){
+    color: #eee;
+    font-size: 17px;
+    padding-top: 100px;
+}
+#pie p:nth-child(2){
+    color: #7C2B2B;
+    font-size: 17px;
+}
+#pie #ir-inicio{
+    color: #7C2B2B; 
+    font-size: 20px;
+    text-decoration: none;   
+}
+#pie #ir-inicio:hover{
+    color: #eee;
+
+}
+/********************************
+********** slider cabecera ******
+*********************************/
+ol,ul {
+    list-style:none;
+}
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    background-attachment: fixed;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li span { 
+    z-index: 1000;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
+    -moz-animation: titleAnimation 36s linear infinite 0s;
+    -o-animation: titleAnimation 36s linear infinite 0s;
+    -ms-animation: titleAnimation 36s linear infinite 0s;
+    animation: titleAnimation 36s linear infinite 0s; 
+}
+/*.cb-slideshow li div h3 { 
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 240px;
+    padding: 0;
+    line-height: 200px; 
+}*/
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(../img/1.png) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(../img/2.png);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(../img/3.png);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(../img/4.png);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(../img/5.png);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(../img/6.png);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+/* Animation for the title */
+@-webkit-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li span{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1140px) { 
+    .cb-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) { 
+    .cb-slideshow li div h3 { font-size: 80px }
+}

@@ -1,0 +1,41 @@
+[33mcommit d123c3e9e5622b08ba311285099584aa6abb70a5[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Tue Oct 25 15:43:12 2016 -0500
+
+    seccion mis ofertas de egresado listo, se agrego estado cero
+
+[33mcommit 0ecea051be75ac17e57fbfe2624157e8f2bae6d9[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Mon Oct 24 21:14:49 2016 -0500
+
+    Ofertas caducadas retiradas del index y se egrego el estado 0, al no existir ofertas o caducadas todas
+
+[33mcommit f022458413d139879b4b6b4173502d5e0b08626a[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Mon Oct 24 20:22:02 2016 -0500
+
+    Mensaje de inicio, avisando que hay ofertas por caducar hoy, mañana o ya sedieron de baja porque ya se caducaron, COMPLETO
+
+[33mcommit 7e652e04356816eb808a97f02e6b8fa7cc407390[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Mon Oct 24 10:12:41 2016 -0500
+
+    Eliminar_oferta.php (cerrar oferta) completo.
+
+[33mcommit 4319792b9649d1f563c9df35eea0b128e394d636[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Sat Oct 22 22:26:07 2016 -0500
+
+    Se agrego forzado de session en todas las paginas de empresa, por SEGURIDAD
+
+[33mcommit 871cf3406f3f18c88eef66f5fa0c76a37bd81170[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Sat Oct 22 22:13:40 2016 -0500
+
+    Actualizar_perfil.php completo, cambio de contra completo
+
+[33mcommit c38d5cb05d105cf20aefa4a54ee69bce226aa267[m
+Author: kedoHC <jadtovilla@hotmail.com>
+Date:   Fri Oct 21 20:19:47 2016 -0500
+
+    trabajando en actualizar_perfil.php de empresa

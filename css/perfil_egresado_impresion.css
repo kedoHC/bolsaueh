@@ -1,0 +1,108 @@
+#menu, #menu-contenedor, #cabecera, #titulo_bolsa_ueh, #pie{
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+}
+h1, h2, h3{
+	font-size: 20px;
+	color: #7c2b2b;
+}
+/********************************
+******* perfil egresado***********
+*********************************/
+#perfil-egresado{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#perfil-egresado .container{
+    border: 4px solid #262525;
+}
+#perfil-egresado .etiquetas{
+    background-color: #7c2b2b; 
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+#perfil-egresado .etiqueta{
+    background-color: #7c2b2b; 
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+#perfil-egresado .izquierdo-foto img{
+    margin-top: 50px;
+}
+#perfil-egresado .medio-datos-grales{
+    background-color: #fff;
+    border-left: 2px solid #7c2b2b;
+    border-bottom: 2px solid #7c2b2b;
+}
+#perfil-egresado .medio-datos-grales p{
+    font-size: 17px; 
+} 
+#perfil-egresado .medio-datos-grales h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+#perfil-egresado .medio-datos-grales h3{
+    font-weight: bold;
+}
+#perfil-egresado .medio-datos-grales span{
+    color:  #7c2b2b; 
+    margin-left: 10px;
+}
+#perfil-egresado .acercademi{
+    color: #fff;
+    background-color: #262525;
+}
+#perfil-egresado .acercademi p{
+    font-size: 17px;
+}
+#perfil-egresado .acercademi .matricula{
+    margin-top: 30px;
+}
+#perfil-egresado .acercademi .titulo-dato{
+    font-weight: bold;
+}
+#perfil-egresado .medio-info-academica{
+	border-left: 1px solid #262525;
+}
+#perfil-egresado .medio-info-academica .titulo{
+    padding-right: 60px;
+}
+#perfil-egresado .medio-info-academica .anio-titulo{
+    color: #7C2B2B;
+    font-weight: bold;
+}
+#perfil-egresado .derecho .anio-titulo{
+    color: #7C2B2B;
+    font-weight: bold;
+    font-size: 19px;
+}
+#perfil-egresado .derecho .descripcion-puesto{
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#perfil-egresado .derecho{
+    border-left: 2px solid #262525;
+}
+
+
+
+
+
+
+
+
+
+
+/********************************
+************* pie ***************
+*********************************/
+

@@ -1,0 +1,100 @@
+#cabecera{
+	position: absolute;
+	width: 100%;
+	background-image: url("../img/cabecera-basico.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+#cabecera img{
+	width: 8%;
+}
+#cabecera h2{
+	color: #fff;
+	text-align: center;
+}
+/********************************
+******** admin log **************
+*********************************/
+#titulo-admin-log{
+	position: absolute;
+	top: 200px;
+	color: #fff;
+	background-color: #262525;
+	width: 100%;
+}
+#form-admin-log {
+	position: absolute;
+	top: 300px;
+	width: 100%;
+}
+#form-admin-log input[type="text"],
+#form-admin-log input[type="password"]{
+	width: 300px;
+	text-align: center;
+	height: 35px;
+	border: none;
+	border-bottom: 2px solid #262525;
+	margin-top: 20px;
+	font-size: 25px;
+	color: #7c2b2b;
+}
+#form-admin-log input[type="text"]:focus,
+#form-admin-log input[type="password"]:focus{
+	outline: 0px;
+	border-bottom: 4px solid #262525;
+}
+#form-admin-log p{
+	color: #7c2b2b;
+	font-size: 18px;
+	font-weight: bold;
+}
+#form-admin-log p:first-child{
+	margin-top: 30px;
+}
+#form-admin-log p:last-child{
+	margin-bottom: 100px;
+}
+
+#form-admin-log input[type="submit"]:focus{
+	outline: 0px;
+}
+#form-admin-log input[type="submit"]{
+	width: 200px;
+	margin-top: 60px;
+	height: 35px;
+	border:none;
+	color: #fff;
+	background-color: #7c2b2b;
+}
+#form-admin-log input[type="submit"]:hover{
+	color: #262525;
+}
+/********************************
+************* pie ***************
+*********************************/
+#pie{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #262525;
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 15px;
+}
+#pie #copyright{
+    color: #fff;
+    font-size: 14px;
+}
+#pie #pie-redes img{
+    width: 70%;
+}
+#pie #ir-inicio{
+    color: #7C2B2B; 
+    font-size: 20px;
+    text-decoration: none;   
+}
+#pie #ir-inicio:hover{
+    color: #eee;
+}
